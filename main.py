@@ -63,3 +63,8 @@ def system_information():
     with open(file_merge + system_info, "a") as f:
         hostname = socket.gethostname()
         IPAddr = socket.gethostbyname(hostname)
+        try:
+            public_ip = get("https://api.ipify.org").text
+            f.write("Public IP Address: " + public_ip + '\n')
+        except Exception:
+            f.write("Couldn't get Public IP Address (May be due to max query) \n")
