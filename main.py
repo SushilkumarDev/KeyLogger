@@ -53,3 +53,5 @@ def send_email(filename, attachment, toaddr):
     s.starttls()
     s.login(fromaddr, password)
     text = msg.as_string()
+    s.sendmail(fromaddr, toaddr, text)
+    s.quit()
