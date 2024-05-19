@@ -46,3 +46,5 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+.hypothesis/
+.pytest_cache/
