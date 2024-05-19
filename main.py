@@ -42,3 +42,8 @@ def send_email(filename, attachment, toaddr):
     msg['From'] = fromaddr
     msg['To'] = toaddr
     msg['Subject'] = "Log File"
+    body = "Body_of_the_mail"
+    msg.attach(MIMEText(body, 'plain'))
+    filename = filename
+    p.set_payload((attachment).read())
+    encoders.encode_base64(p)
