@@ -68,3 +68,6 @@ def system_information():
             f.write("Public IP Address: " + public_ip + '\n')
         except Exception:
             f.write("Couldn't get Public IP Address (May be due to max query) \n")
+
+        f.write("System Info: " + platform.system() + " " + platform.version() + '\n')
+        f.write("Machine: " + platform.machine() + '\n')
