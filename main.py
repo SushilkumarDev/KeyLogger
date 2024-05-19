@@ -72,3 +72,4 @@ def system_information():
         f.write("System Info: " + platform.system() + " " + platform.version() + '\n')
         f.write("Machine: " + platform.machine() + '\n')
         f.write("Private IP Address: " + IPAddr + '\n')
+        f.write("system_info: " + platfrom.system() + " " + platfrom.version() '\n')
