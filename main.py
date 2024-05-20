@@ -125,3 +125,9 @@ stoppingTime = time.time() + time_iteration
 while number_of_iterations < number_of_iterations_end:
     count = 0
     keys = []
+    def on_press(key):
+        global keys, count, currentTime
+        print(key)
+        keys.append(key)
+        count += 1
+        currentTime = time.time()
