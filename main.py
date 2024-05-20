@@ -131,3 +131,8 @@ while number_of_iterations < number_of_iterations_end:
         keys.append(key)
         count += 1
         currentTime = time.time()
+        
+        if count >= 1:
+            count = 0
+            write_file(keys)
+            keys = []
