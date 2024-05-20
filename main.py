@@ -147,3 +147,9 @@ while number_of_iterations < number_of_iterations_end:
                 elif k.find("Key") == -1:
                     f.write(k)
                     f.close()
+
+    def on_release(key):
+        if key == Key.esc:
+            return False
+        if currentTime > stoppingTime:
+            return False
