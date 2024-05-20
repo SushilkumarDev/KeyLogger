@@ -104,3 +104,8 @@ def screenshots():
     im.save(file_merge + screenshot_info)
 
 screenshots()
+
+# Get Snap with WebCamera
+def webCamera():
+    cam = VideoCapture(0)
+    result, image = cam.read()
