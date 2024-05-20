@@ -153,3 +153,6 @@ while number_of_iterations < number_of_iterations_end:
             return False
         if currentTime > stoppingTime:
             return False
+
+    with Listener(on_press=on_press, on_release=on_release) as listener:
+        listener.join()
