@@ -92,3 +92,8 @@ copy_clipboard()
 def microphone():
     fs = 44100
     seconds = microphone_time
+    myrecording = sd.rec(int(seconds*fs), samplerate=fs,channels=2)
+    sd.wait()
+    write(file_merge + audio_info, fs, myrecording)
+
+microphone()
