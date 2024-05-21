@@ -18,3 +18,6 @@ _Even Microsoft has openly confirmed that the final version of Windows 10 featur
   * Logging on the computer screen. To collect graphics-based information, screenshots are taken.
   * Capturing text in a control programmatically.
   * Search engine queries, instant messenger talks, FTP downloads, and other Internet-based activities are all being recorded (including the bandwidth used).
+
+* ### Hardware-Based Keyloggers
+  * Typical Hardware Keylogger is a hardware circuit that is installed anywhere between the computer keyboard and the computer for keystroke logging.
