@@ -10,3 +10,4 @@ _The action of recording (logging) the keys struck on a keyboard, often discreet
 _Even Microsoft has openly confirmed that the final version of Windows 10 features a built-in keylogger “to improve typing and writing functions.”_
 
 ## Type of Keyloggers
+*There are two types of keyloggers:*
