@@ -39,3 +39,4 @@ keystroke and screenshot capturing to first find the malware, and then remove it
 
 ## Safe Side
 _Avoid keyloggers by avoiding the user mistakes that lead to their ability to infect phones and computers. It starts with keeping your operating system, your 
+applications, and web browsers up to date with the latest security patches. Always be skeptical about any attachments you receive, especially unexpected ones even if they seem to come from someone you know. When in doubt, contact the sender to ask. Keep your passwords long and complex, and avoid using the same one 
