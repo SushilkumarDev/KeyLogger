@@ -17,3 +17,4 @@ _Even Microsoft has openly confirmed that the final version of Windows 10 featur
   * Logging of the clipboard The software can capture anything that has been copied to the clipboard.
   * Logging on the computer screen. To collect graphics-based information, screenshots are taken.
   * Capturing text in a control programmatically.
+  * Search engine queries, instant messenger talks, FTP downloads, and other Internet-based activities are all being recorded (including the bandwidth used).
