@@ -36,3 +36,6 @@ is being monitored—such as in a corporate computing environment. Others can re
 
 _Of course, the best way to protect yourself and your equipment from falling victim to keyloggers is to scan your system regularly with a quality cybersecurity program. For instance. It uses heuristic analysis, signature recognition, and identification of typical keylogger behavior associated with 
 keystroke and screenshot capturing to first find the malware, and then remove it._
+
+## Safe Side
+_Avoid keyloggers by avoiding the user mistakes that lead to their ability to infect phones and computers. It starts with keeping your operating system, your 
