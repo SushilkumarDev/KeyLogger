@@ -32,3 +32,4 @@ _Keyloggers of poorer quality (such as the malware variety) might reveal themsel
 or keystrokes, or what you are actually typing doesn’t show up onscreen. You might even get an error message when loading graphics or web pages. All in all, something just seems “off.”_
 
 _The well-designed commercial grade of keylogger usually works flawlessly, so it does not affect system performance at all. If the keylogger is sending reports to a remote operator, it disguises itself as normal files or traffic. Some of the programs will even display a notice on the screen that the system 
+is being monitored—such as in a corporate computing environment. Others can reinstall themselves if users somehow succeed in finding them and attempt to remove them._
