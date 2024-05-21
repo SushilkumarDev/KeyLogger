@@ -43,3 +43,4 @@ applications, and web browsers up to date with the latest security patches. Alwa
 for different services._
 
 _Real-time, always-on antivirus/anti-malware protection is the gold standard for preventing not only infection from a keylogger, but also from all other 
+associated malware threats. For all platforms and devices, from Windows and Android, Mac and iPhones, to business environments._
