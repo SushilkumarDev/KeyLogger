@@ -30,3 +30,5 @@ _Are there telltale signs that your device is hosting a keylogger? The answer is
 
 _Keyloggers of poorer quality (such as the malware variety) might reveal themselves in a number of ways. The software might subtly degrade smartphone screenshots to a noticeable degree. On all devices, there could be a slowdown in web browsing performance. Or there’s a distinct lag in your mouse movement 
 or keystrokes, or what you are actually typing doesn’t show up onscreen. You might even get an error message when loading graphics or web pages. All in all, something just seems “off.”_
+
+_The well-designed commercial grade of keylogger usually works flawlessly, so it does not affect system performance at all. If the keylogger is sending reports to a remote operator, it disguises itself as normal files or traffic. Some of the programs will even display a notice on the screen that the system 
