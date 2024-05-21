@@ -35,3 +35,4 @@ _The well-designed commercial grade of keylogger usually works flawlessly, so it
 is being monitored—such as in a corporate computing environment. Others can reinstall themselves if users somehow succeed in finding them and attempt to remove them._
 
 _Of course, the best way to protect yourself and your equipment from falling victim to keyloggers is to scan your system regularly with a quality cybersecurity program. For instance. It uses heuristic analysis, signature recognition, and identification of typical keylogger behavior associated with 
+keystroke and screenshot capturing to first find the malware, and then remove it._
