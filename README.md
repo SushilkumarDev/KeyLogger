@@ -11,3 +11,7 @@ _Even Microsoft has openly confirmed that the final version of Windows 10 featur
 
 ## Type of Keyloggers
 *There are two types of keyloggers:*
+
+* ### Software-Based Keyloggers
+  * Features that collect user information without relying solely on keyboard key presses can be added to software keyloggers.
+  * Logging of the clipboard The software can capture anything that has been copied to the clipboard.
