@@ -23,3 +23,4 @@ _Even Microsoft has openly confirmed that the final version of Windows 10 featur
   * Typical Hardware Keylogger is a hardware circuit that is installed anywhere between the computer keyboard and the computer for keystroke logging.
   * Hardware keyloggers have an advantage over software keyloggers in that they can start logging as soon as the machine is switched on.
   * Hardware-based keyloggers do not require the installation of any software because they operate at the hardware level of a computer system.
+  * A hardware keylogger’s memory size can range from a few kilobytes to several terabytes, with each keystroke recorded typically consuming a byte
