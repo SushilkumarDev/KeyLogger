@@ -46,4 +46,8 @@ _Real-time, always-on antivirus/anti-malware protection is the gold standard for
 associated malware threats. For all platforms and devices, from Windows and Android, Mac and iPhones, to business environments._
 
 ## Disclaimer
-_This tool is for educational purposes only, the author do not endorse or promote any illegal activity and are not responsible for any damage done henceforth._
+_This tool is for educational purposes only, the author do not endorse or promote any illegal activity and are not responsible for any damage done henceforth.
+
+
+## License
+_This program is free software; you can redistribute it and/or modify it under the terms of the MIT License (MIT). See [LICENSE](LICENSE) for more details._
