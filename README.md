@@ -1,53 +1,57 @@
-# Advance Keylogger
+# Advanced Keylogger
 
-<p align="center">
-  <img src="https://cdn.discordapp.com/attachments/787260295860191254/1005556601823952946/logo.png" width=500/>
-</p>
+## What is a Keylogger?
 
-## What is Keylogger ?
-_The action of recording (logging) the keys struck on a keyboard, often discreetly, so that the person using the keyboard is unaware that their activities are being observed is known as keystroke logging, also known as keylogging or keyboard capture. The person who is running the logging program can then obtain the data. Keylogger is most often used to steal passwords and other confidential information._
+Keylogging refers to the action of recording (logging) the keys struck on a keyboard, often discreetly, so that the user is unaware that their activities are being observed. The individual running the logging program can then obtain the logged data. Keyloggers are most commonly used to steal passwords and other confidential information.
 
-_Even Microsoft has openly confirmed that the final version of Windows 10 features a built-in keylogger “to improve typing and writing functions.”_
+Even Microsoft has openly confirmed that the final version of Windows 10 features a built-in keylogger “to improve typing and writing functions.”
 
-## Type of Keyloggers
-*There are two types of keyloggers:*
+## Types of Keyloggers
 
-* ### Software-Based Keyloggers
-  * Features that collect user information without relying solely on keyboard key presses can be added to software keyloggers.
-  * Logging of the clipboard The software can capture anything that has been copied to the clipboard.
-  * Logging on the computer screen. To collect graphics-based information, screenshots are taken.
-  * Capturing text in a control programmatically.
-  * Search engine queries, instant messenger talks, FTP downloads, and other Internet-based activities are all being recorded (including the bandwidth used).
+There are two main types of keyloggers:
 
-* ### Hardware-Based Keyloggers
-  * Typical Hardware Keylogger is a hardware circuit that is installed anywhere between the computer keyboard and the computer for keystroke logging.
-  * Hardware keyloggers have an advantage over software keyloggers in that they can start logging as soon as the machine is switched on.
-  * Hardware-based keyloggers do not require the installation of any software because they operate at the hardware level of a computer system.
-  * A hardware keylogger’s memory size can range from a few kilobytes to several terabytes, with each keystroke recorded typically consuming a byte
+### Software-Based Keyloggers
 
-## How to detect and remove Keylogger
-_Are there telltale signs that your device is hosting a keylogger? The answer is, it depends. Like most malware, you can use a good antivirus/anti-malware scanner to find and remove keyloggers._
+- Software keyloggers can collect user information without solely relying on keyboard key presses.
+- They can log clipboard data, capturing anything copied to the clipboard.
+- They can take screenshots to collect graphics-based information.
+- These keyloggers can capture text programmatically in applications.
+- They also record search engine queries, instant messenger conversations, FTP downloads, and other Internet-based activities, including bandwidth usage.
 
-_Keyloggers of poorer quality (such as the malware variety) might reveal themselves in a number of ways. The software might subtly degrade smartphone screenshots to a noticeable degree. On all devices, there could be a slowdown in web browsing performance. Or there’s a distinct lag in your mouse movement 
-or keystrokes, or what you are actually typing doesn’t show up onscreen. You might even get an error message when loading graphics or web pages. All in all, something just seems “off.”_
+### Hardware-Based Keyloggers
 
-_The well-designed commercial grade of keylogger usually works flawlessly, so it does not affect system performance at all. If the keylogger is sending reports to a remote operator, it disguises itself as normal files or traffic. Some of the programs will even display a notice on the screen that the system 
-is being monitored—such as in a corporate computing environment. Others can reinstall themselves if users somehow succeed in finding them and attempt to remove them._
+- A typical hardware keylogger is a device installed between the keyboard and the computer for keystroke logging.
+- Hardware keyloggers have the advantage of starting logging as soon as the machine is powered on.
+- They operate at the hardware level and do not require software installation.
+- The memory size of a hardware keylogger can range from a few kilobytes to several terabytes, with each keystroke typically consuming one byte.
 
-_Of course, the best way to protect yourself and your equipment from falling victim to keyloggers is to scan your system regularly with a quality cybersecurity program. For instance. It uses heuristic analysis, signature recognition, and identification of typical keylogger behavior associated with 
-keystroke and screenshot capturing to first find the malware, and then remove it._
+## How to Detect and Remove a Keylogger
 
-## Safe Side
-_Avoid keyloggers by avoiding the user mistakes that lead to their ability to infect phones and computers. It starts with keeping your operating system, your 
-applications, and web browsers up to date with the latest security patches. Always be skeptical about any attachments you receive, especially unexpected ones even if they seem to come from someone you know. When in doubt, contact the sender to ask. Keep your passwords long and complex, and avoid using the same one 
-for different services._
+Detecting keyloggers can vary based on their design. Generally, a good antivirus or anti-malware scanner can help find and remove them. Poor-quality keyloggers may exhibit signs such as:
 
-_Real-time, always-on antivirus/anti-malware protection is the gold standard for preventing not only infection from a keylogger, but also from all other 
-associated malware threats. For all platforms and devices, from Windows and Android, Mac and iPhones, to business environments._
+- Noticeable degradation of smartphone screenshots.
+- Sluggish web browsing performance.
+- Lag in mouse movement or keystrokes, or missing characters on screen.
+- Error messages when loading graphics or web pages.
+
+Well-designed commercial keyloggers often work seamlessly, disguising themselves as normal files or traffic. Some may even display notices indicating that the system is being monitored, especially in corporate environments. Others can reinstall themselves if users attempt to remove them.
+
+To protect yourself and your equipment from keyloggers, regularly scan your system with a quality cybersecurity program. Effective programs utilize heuristic analysis, signature recognition, and identify typical keylogger behaviors associated with keystroke and screenshot capturing.
+
+## Best Practices for Prevention
+
+To avoid keyloggers, refrain from making common user mistakes that lead to infections. Key practices include:
+
+- Keeping your operating system, applications, and web browsers up to date with the latest security patches.
+- Being skeptical about attachments received, especially unexpected ones, even if they appear to come from someone you know. When in doubt, contact the sender to verify.
+- Using long and complex passwords, and avoiding the same password across multiple services.
+
+Implementing real-time, always-on antivirus/anti-malware protection is crucial for preventing keylogger infections and other associated malware threats across all platforms, including Windows, Android, Mac, iPhone, and in business environments.
 
 ## Disclaimer
-_This tool is for educational purposes only, the author do not endorse or promote any illegal activity and are not responsible for any damage done henceforth.
 
+This tool is for educational purposes only. The author does not endorse or promote any illegal activity and is not responsible for any damage that may occur.
 
 ## License
-_This program is free software; you can redistribute it and/or modify it under the terms of the MIT License (MIT). See [LICENSE](LICENSE) for more details._
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License v3 (GPLv3). See [LICENSE](LICENSE) for more details.
